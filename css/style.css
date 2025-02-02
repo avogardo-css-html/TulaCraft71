@@ -247,6 +247,8 @@ html {
 
     padding-left: 0px;
 
+    width: 320px;
+
     
 }
 
@@ -804,5 +806,141 @@ html {
     to {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+
+
+
+
+@media (max-width: 479px) {
+
+    /* ----------------------- HEADER -----------------------*/
+
+    .header__navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar__list ul{
+        display: flex;
+        gap: 6px !important ;
+    }
+
+    .navbar__list ul li a{
+        font-size: 10px  ;
+        line-height: 75%;
+
+    }
+
+    .navbar__image img {
+        width: 80px !important;  
+        height: 30px !important;
+    }
+
+
+
+    /* ----------------------- MAIN -----------------------*/
+
+
+
+
+    .main__content{
+    
+        padding: 40px 35px 52px 30px;
+        
+    }
+
+    .main__content h1{
+        max-width: 350px;
+        margin-bottom: 10px;
+    
+        font-weight: 300;
+        font-size: 34px;
+        line-height: 120%;
+        letter-spacing: 0.08em;
+    }
+
+    .main__content p{
+        max-width: 350px;
+    
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 130%;
+        letter-spacing: 0.08em;
+    }
+    
+
+
+
+
+
+
+
+
+    .services__container{
+
+
+        display: flex;
+        gap: 30px;
+
+        justify-content: center;
+    }
+
+
+
+    .services__title{
+        font-size: 18px;
+        line-height: 110%;
+        letter-spacing: 0.08em;
+        background: linear-gradient(133deg, #d9af33 24%, rgba(170, 140, 50, 0.85) 77.37%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+        padding-left: 0px;
+        
+        width: 160px !important;
+    }
+
+
+    .services__card{
+        padding: 7px 2px 8px 4px;
+
+        max-width: 160px;
+    }
+
+
+
+    .services__card h2{
+        font-size: 14px;
+        line-height: 155%;
+        letter-spacing: 0.08em;
+        width: 160px;
+    }
+    
+    .services__card p{
+        font-size: 8px;
+        line-height: 140%;
+        letter-spacing: 0.08em;
+        color: #403f44;
+    }
+
+    .icon__container{
+        position: absolute;
+        top: -25px;
+        left: 20px;
+        background-color: white;
+        padding: 0 10px;
+    }
+
+    .garant{
+        width: 30px;
+        height: 32.14px !important;
+    }
+
+    .icon__container img{
+        width: 30px !important;
+        height: 30px;
     }
 }
