@@ -811,7 +811,7 @@ html {
 
 
 
-/* 
+
 
 @media (max-width: 479px) {
 
@@ -941,4 +941,285 @@ html {
         width: 30px !important;
         height: 30px;
     }
-} */
+
+
+
+
+
+
+    .plan{
+        padding-bottom: 20px;
+    }
+
+
+    .plan__content{
+        padding-top: 30px;
+    }
+
+    .plan__content{
+        max-width: 400px;
+    }
+
+
+    .plan .container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+
+        /* justify-content: center; */
+        align-items: center;
+
+        /* margin: 0 auto; */
+    }
+
+    .plan__content h3{
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.08em;
+    
+        padding-bottom: 20px;
+    }
+    
+    .plan__content p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.08em;
+        color: var(--quaternary-base);
+    
+        max-width: 350px;
+        margin-right: 0px !important;
+    }
+
+
+    .plan__image{
+        padding-top: 30px;
+    }
+    
+
+    .button-image{
+        margin-top: 125px !important;
+
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+
+    .imageDisplay{
+        width: 250px !important;
+        height: 283.71px !important;
+    }
+
+
+
+
+
+
+
+
+
+    .project{
+        padding-bottom: 30px;
+    }
+
+    .project__container{
+        max-width: 380px;
+        margin: 0 auto; 
+    
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .project-title h3{
+
+        padding-bottom: 20px;
+        margin-top: 30px;
+
+        font-size: 20px;
+        line-height: 112%;
+    }
+
+
+
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+    .project__card{
+        width: 320px;
+    
+        border-radius: 20px;
+    
+    }
+    
+    
+    .project__content h5{
+        position: absolute;
+        top: 50%; 
+        right: 22%; 
+    
+    
+        padding-top: 160px;
+        opacity: 0.5;
+    
+        font-size: 10px;
+
+    }
+    
+
+    
+    
+    
+    
+    
+    .project__image{
+        max-width: 160px !important;
+    }
+    
+    .project__content{
+        max-width: 160px;
+    
+        margin-left: 5px;
+    }
+    
+    .project__content h4{
+        font-weight: 600;
+        font-size: 10px;
+    
+        margin-bottom: 2px;
+        margin-top: 5px;
+    }
+    
+    .project__content p{
+        max-width: 125px;
+    
+        margin-bottom: 5px;
+    
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 150%;
+        color: #e1e1f9;
+    }
+
+
+    .project__content button{
+        border-radius: 30px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+        background: linear-gradient(139deg, #d9af33 29.75%, #aa8c32 92.41%);
+    
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 211%;
+        color: #e1e1f9;
+    
+        padding: 1px 8px;
+    
+        transition: all 0.3s ease;
+    }
+
+
+    .card-two .project__content{
+        margin-left: 8px;
+    }
+
+
+    .card-two .project__content p{
+        margin-bottom: 5px;
+    }
+
+    .card-two .project__content h5{
+        position: absolute;
+        top: 50%; 
+        right: 71%;
+    
+        
+    }
+
+
+
+
+    .contact__container{
+        margin: 0 auto;
+    
+        display: flex;
+        justify-content: space-around;
+        max-width: 400px;
+    }
+
+
+    .contact{
+    
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .contact__left h4{
+        font-size: 24px;
+        margin-bottom: 3px;
+    }
+
+    .contact__left p{
+        font-size: 16px;
+    }
+
+    .medium__content h4{
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+
+
+    .medium__content a{
+        font-size: 12px;
+    }
+
+    .medium__content p{
+        font-size: 12px;
+    }
+
+    .right__content a{
+        font-size: 12px;
+    }
+
+    .right__content img{
+        width: 18px !important;
+        height: 18px !important;
+    }
+
+
+    .contact__medium div + div{
+        padding-top: 20px;;
+    }
+
+
+    .contact__right div + div{
+        padding-top: 30px;;
+    }
+
+
+    .contact__medium{
+        padding-right: 5px;
+        border-right: 1px solid #000;
+
+        padding-left: 5px;
+        border-left: 1px solid #000;
+    }
+
+    .right__content a{
+        padding-left: 2px;
+    }
+
+    .footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        font-size: 10px;
+    
+    }
+}
