@@ -811,11 +811,10 @@ html {
 
 
 
-
+/* 
 
 @media (max-width: 479px) {
 
-    /* ----------------------- HEADER -----------------------*/
 
     .header__navbar{
         display: flex;
@@ -840,7 +839,6 @@ html {
 
 
 
-    /* ----------------------- MAIN -----------------------*/
 
 
 
@@ -943,4 +941,4 @@ html {
         width: 30px !important;
         height: 30px;
     }
-}
+} */
