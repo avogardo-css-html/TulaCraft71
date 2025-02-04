@@ -424,9 +424,6 @@ html {
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5);
     background: linear-gradient(154deg, #848993 0%, #535966 100%);
 
-
-
-
     position: relative;
 }
 
@@ -456,6 +453,10 @@ html {
     position: relative;
 
     background: linear-gradient(153deg, #848993 0%, #535966 100%);
+}
+
+.card-two .project__content button{
+    left: 3%;
 }
 
 .card-two .project__content h5{
@@ -496,7 +497,6 @@ html {
 .project__content p{
     max-width: 350px;
 
-    margin-bottom: 80px;
 
     font-weight: 400;
     font-size: 20px;
@@ -517,6 +517,10 @@ html {
     padding: 11px 45px;
 
     transition: all 0.3s ease;
+
+    position: absolute;
+    left: 53%;
+    bottom: 5%;
 }
 
 .project__content button:hover{
@@ -945,8 +949,6 @@ html {
 
 
 
-
-
     .plan{
         padding-bottom: 20px;
     }
@@ -1056,6 +1058,7 @@ html {
     
         border-radius: 20px;
     
+        
     }
     
     
