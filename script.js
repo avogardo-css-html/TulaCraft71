@@ -1,5 +1,5 @@
 const images = [
-    "image/plan_two_one.png",
+    "image/plan_house_two.png",
     "image/three_house.png",
 ];
 
@@ -178,16 +178,3 @@ function changeImage_4() {
         }, 600);
     }, 600);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
